@@ -1,0 +1,56 @@
+{
+  "Cliente": {
+    "IdCliente 1": {
+      "Apellido": "Lopez",
+      "Correo": "berthalopez5@gmail.com",
+      "Direccion": "Barrio Saraxoch",
+      "Nombre": "Bertha ",
+      "Telefono": 46736612
+    },
+    "IdCliente 2": {
+      "Apellido": "Garcia",
+      "Correo": "pedrogarciaa7@gmail.com",
+      "Direccion": "Barrio San Pablo",
+      "Nombre": "Pedro",
+      "Telefono": 11036739
+    },
+    "IdCliente 3": {
+      "Apellido": "Vasquez",
+      "Correo": "belenvasquez33@gmail.com",
+      "Direccion": "Chibujbu",
+      "Nombre": "Belen",
+      "Telefono": 56762398
+    }
+  },
+  "Cliente_Evento": {
+    "IdCE1": {
+      "IdCliente": "IdCliente1",
+      "IdEvento": "IdEvento1"
+    },
+    "IdCE2": {
+      "IdCliente": "IdCliente2",
+      "IdEvento": "IdEvento2"
+    },
+    "IdCE3": {
+      "IdCliente": "IdCliente3",
+      "IdEvento": "IdEvento3"
+    }
+  },
+  "Evento": {
+    "IdEvento1": {
+      "Descripcion": "Salón Bella Vista",
+      "Nombre": "Boda",
+      "Precio": "3,500"
+    },
+    "IdEvento2": {
+      "Descripcion": "El campo Rojo",
+      "Nombre": "Cumpleaños",
+      "Precio": "2,500"
+    },
+    "IdEvento3": {
+      "Descripcion": "Auditorio",
+      "Nombre": "Graduacion",
+      "Precio": "3,000"
+    }
+  }
+}
